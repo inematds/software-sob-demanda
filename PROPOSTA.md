@@ -204,6 +204,8 @@ A proposta só tem valor se o aluno **sair criando**. O guia `conteudo/como-cria
 - escada de 7 degraus, cada degrau = 1 aula;
 - prompts de bolso e limites que precisam ser ditos ao aluno.
 
+Referência completa dos exemplos do vídeo: `conteudo/catalogo-astra-71.md` (71 itens, 33 abríveis) e `conteudo/prompts-astra-71.md` (17 prompts publicados, traduzidos). Fonte: índice *The Astra 71* de AI Samson.
+
 ## 8. Desafio: 30 AGENTES EM 30 DIAS
 
 Formato de comunidade / marketing de entrada. Todo dia um pequeno problema entregue a um agente:

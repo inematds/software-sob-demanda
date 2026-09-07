@@ -15,6 +15,8 @@ Pare de apenas usar ferramentas. Aprenda a mandar a IA **criar, operar e integra
 - **[metodo/IC-RAV.md](metodo/IC-RAV.md)** — o método próprio (Intenção · Contexto · Resultado · Autonomia · Verificação) em 1 página.
 - **[prompts/](prompts/)** — os 5 prompts-mestre da formação (início da biblioteca de 50–100).
 - **[conteudo/como-criar-do-zero.md](conteudo/como-criar-do-zero.md)** — guia prático para leigo: ferramentas, primeira ferramenta em 30 min, como as pessoas do vídeo estão criando, escada de 7 degraus, prompts de bolso.
+- **[conteudo/catalogo-astra-71.md](conteudo/catalogo-astra-71.md)** — os 71 exemplos do vídeo com criador, link para abrir e fonte (índice de AI Samson).
+- **[conteudo/prompts-astra-71.md](conteudo/prompts-astra-71.md)** — os 17 prompts publicados, traduzidos e lidos pelo IC-RAV, com o que cada um ensina.
 
 ## Origem
 

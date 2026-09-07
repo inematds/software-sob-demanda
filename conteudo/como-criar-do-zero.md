@@ -89,16 +89,22 @@ Repita 2 ou 3 vezes. Isso é o "loop" que todo mundo do vídeo faz.
 
 ## 4. Como as pessoas do vídeo estão criando (padrões, não mágica)
 
-| Quem / o quê | Como fez, na prática | Padrão reutilizável |
-|---|---|---|
-| Todo-list com aba "Coach" (o próprio apresentador) | Pediu app pessoal; depois pediu uma aba onde a IA analisa como ele usa o app e aponta tarefas paradas | **Ferramenta + uma aba onde a IA comenta seu uso** |
-| Dashboard patrimonial | Juntou extratos de bancos e corretoras, pediu consolidação + sugestões + lista de tarefas com "posso fazer sozinho / preciso de você" | **Dados dispersos → um painel → tarefas classificadas por autonomia** |
-| Escolher cidade na Europa para 1 mês de dança | Em vez de "pesquise", pediu: pesquise, mostre fontes, compare custos, dê nota por critério e monte uma página de decisão | **Pesquisa → critérios → pesos → página comparativa** (prompt 04) |
-| Laboratório que cancelou licenças de software científico | Descreveu o que o software caro fazia com os dados dele e pediu uma versão específica só para o seu caso | **"Refaça só a parte que eu uso do software X"** |
-| Astra operando DaVinci Resolve, KiCad, Blender | Deu o objetivo final (vídeo editado, placa roteada) e deixou o agente clicar no programa | **Descreva o resultado, não os cliques** (computer use) |
-| Simulador de enchente em cidade costeira | Pediu modelo de cenários com calculadoras para comparar abordagens | **Decisão difícil → simulador com variáveis ajustáveis** |
-| Riley Brown: emulador de jogo numa manhã / Leon Lin: floresta 3D em 5 h | Iteração longa: pedido inicial simples, dezenas de rodadas "melhore X, corrija Y" | **Começa simples, itera muito** |
-| Matt Shumer: agentes conversando num mundo 3D | Encadeou várias ferramentas (Blender/Unreal + agentes) — nível avançado | **Sistemas de agentes** (nível 5 da trilha) |
+Índice completo com os 71 exemplos, criadores e links: `catalogo-astra-71.md`. Os 17 prompts publicados, traduzidos: `prompts-astra-71.md`.
+
+| Quem / o quê | Como fez, na prática | Padrão reutilizável | Ver |
+|---|---|---|---|
+| Matthew Berman: rede neural aprendendo, dossiê da crise hídrica, plano operacional editável, city builder rodando 5 dias sozinho | Review longo com dezenas de apps publicados, cada um uma página HTML | **Um problema = uma página; publique e itere** | [review](https://signals.forwardfuture.com/astra-review/) · [rede neural](https://wistful-rocket-bbsd.here.now/) · [dossiê](https://lively-rocket-95s2.here.now/reader/) · [plano](https://blazing-forge-tfh2.here.now/board/) |
+| Derya Unutmaz (imunologista): app de citometria que substituiu licenças; filme de 5 min sobre células T num prompt | Descreveu o que o software caro fazia com os dados dele e pediu só aquela parte | **"Refaça só a parte que eu uso do software X"** | [lab app](https://x.com/DeryaTR_/status/2095709095005126756) · [filme](https://x.com/DeryaTR_/status/2095659170661904804) |
+| Legora: 41 documentos financeiros conferidos, buraco de £500k achado | Agente lendo e cruzando documentos com verificação | **Documentos → cruzamento → achado auditável** | [OpenAI](https://openai.com/index/legora-financial-statement-review-with-astra/) |
+| Max Weinbach: 55 agentes auditando 10 modelos financeiros ligados | Sistema de agentes com verificação cruzada | **Nível 5: agentes especializados cooperando** | [post](https://x.com/mweinbach/status/2095596438654759004) |
+| Claire Vo: feature perseguida por 6 meses, resolvida num prompt | Contexto de produto bem descrito + resultado claro | **Contexto rico vale mais que prompt esperto** | [Lenny](https://www.lennysnewsletter.com/p/gpt-6-astra-is-a-banger-heres-everything) |
+| Ben Davis: constrói a feature, usa, acha os próprios bugs, corrige | Pediu explicitamente o loop de auto-verificação | **"Use o que construiu e corrija o que achar"** | [post](https://x.com/davis7/status/2095685366867177517) |
+| Riley Brown: mapa FPS em 28 minutos | Pedido simples, iteração rápida | **Começa simples, itera muito** | [post](https://x.com/rileybrown_ai/status/2095632207813521534) |
+| Matt Shumer: Manhattan rua a rua numa semana; 96 agentes conversando num mundo | Encadeou ferramentas (Blender/Unreal + agentes) | **Sistemas de agentes** (nível 5 da trilha) | [Manhattan](https://x.com/mattshumer_/status/2095609734845927525) · [96 agentes](https://x.com/mattshumer_/status/2095596175705399482) |
+| Peter Gostev: 63 prompts publicados para qualquer um rodar | Prompts de uma linha com escopo exato, no GitHub | **Biblioteca aberta de prompts reproduzíveis** | [repo](https://github.com/petergpt/3d-prompt-collection) |
+| Higgsfield: 16 demos oficiais com prompt (color grade, Salão Oval, sistema solar, escritório em 3D…) | Prompts em formato Intenção → Contexto com fallback → Ferramentas → Verificação → Entregáveis | **Prompt de empresa de produto = IC-RAV** | `prompts-astra-71.md` |
+| Todo-list com aba "Coach" e dashboard patrimonial (o apresentador) | Ferramenta pessoal + aba onde a IA analisa o uso; extratos → painel → tarefas por autonomia | **Ferramenta + IA comentando seu uso** | transcrição do vídeo |
+| Escolher cidade na Europa para 1 mês de dança (o apresentador) | Pesquisa → fontes → critérios → notas → página comparativa | **Pesquisa → sistema de decisão** (prompt 04) | transcrição do vídeo |
 
 O que todos têm em comum:
 1. Começam pelo **problema**, não pela ferramenta.
