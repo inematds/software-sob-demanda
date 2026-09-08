@@ -236,12 +236,16 @@ Resultado esperado: a pessoa deixa de perguntar *"Qual IA devo aprender?"* e pas
 ## 10. Plano de execução proposto
 
 ### Fase 1 — Fundação (2–3 semanas)
-- [ ] Fechar o método IC-RAV (nome, diagrama, 1 página).
-- [ ] Biblioteca inicial de prompts: os 5 mestres + 15 derivados (`prompts/`).
-- [ ] Lançar o **Desafio 30 Agentes em 30 Dias** como conteúdo diário (Reels/Shorts + comunidade) — gera demanda antes do curso.
+- [x] Fechar o método IC-RAV (`metodo/IC-RAV.md`).
+- [x] Prompts-mestre (`prompts/01` a `05`).
+- [x] Catálogo de casos reais (`conteudo/catalogo-astra-71.md`, `conteudo/prompts-astra-71.md`).
+- [x] Guia para leigo (`conteudo/como-criar-do-zero.md`).
+- [x] Escrever o **Desafio 30 Agentes em 30 Dias** (`desafio-30-dias/`).
+- [ ] Produzir os 30 vídeos curtos (1 por dia) e abrir a inscrição.
+- [ ] Biblioteca de prompts: chegar a 25 (5 mestres + 20 derivados dos dias do desafio).
 
 ### Fase 2 — Curso-âncora (4–6 semanas)
-- [ ] **C1 — Do Prompt ao Software** em `/formato-curso-v5` (público leigo 40+) ou `v2` (dark âmbar) — a definir.
+- [ ] **C1 — Do Prompt ao Software** em `/formato-curso-v5` (decisão 2), alimentado pelos casos reais do desafio.
 - [ ] 8 módulos, cada módulo com 1 projeto da seção 6.
 - [ ] Publicar no portal (inema.club) via `/atualiza-portal`.
 
@@ -250,20 +254,29 @@ Resultado esperado: a pessoa deixa de perguntar *"Qual IA devo aprender?"* e pas
 - [ ] 10 projetos guiados (seção 5, C2).
 
 ### Fase 4 — Empresas (paralelo, sob demanda)
-- [ ] **C4 — Agentes para Empresas** + prompt de oportunidades como produto de consultoria/treinamento in-company.
+- [ ] **C4 — Agentes para Empresas** como treinamento in-company (decisão 5), com o prompt 05 abrindo o diagnóstico.
 
 ### Fase 5 — Expansão
 - [ ] C3, C5, C6, C7, C8, C9 conforme tração.
 
 ---
 
-## 11. Decisões em aberto (para o Nei)
+## 11. Decisões tomadas (2026-09-07)
 
-1. **Nome da linha:** "Software sob Demanda com IA" ou "Gestor de Agentes"? (proposta: linha = *Gestor de Agentes*, curso-âncora = *Do Prompt ao Software*)
-2. **Formato do curso-âncora:** `/formato-curso-v5` (INEMA.PRO, leigo 40+) ou `/formato-curso-v2` (dark âmbar)?
-3. **Ferramenta de referência nas aulas:** neutra (Claude Code / Codex / Astra intercambiáveis) ou centrada em uma? (proposta: neutra — a competência sobrevive ao modelo)
-4. **Começar pelo Desafio 30 Dias ou pelo curso C1?** (proposta: desafio primeiro, gera audiência e casos reais para o curso)
-5. **B2B:** C4/C9 viram produto de consultoria in-company ou curso aberto?
+| # | Decisão | Escolha | Por quê |
+|---|---|---|---|
+| 1 | Nome da linha | **GESTOR DE AGENTES** é a linha; **Do Prompt ao Software** é o curso-âncora | "Software sob demanda" descreve a tecnologia, que muda; "gestor de agentes" descreve a competência, que fica |
+| 2 | Formato do curso-âncora | **`/formato-curso-v5`** (INEMA.PRO, público 40+ leigo) | O guia "como criar do zero" foi escrito para leigo; o curso tem que falar a mesma língua. Confirmar na hora de construir |
+| 3 | Ferramenta de referência | **Neutra** — Astra, Claude Code, Codex e Gemini como intercambiáveis | A tese do vídeo é que a competência sobrevive ao modelo. Amarrar o curso a um modelo o faz vencer em meses |
+| 4 | Por onde começar | **Desafio 30 Agentes em 30 Dias** antes do curso C1 | Gera audiência, prova social e casos reais que viram material do curso. Custo de produção baixo |
+| 5 | B2B (C4 e C9) | **Consultoria / treinamento in-company**, não curso aberto | O valor está no diagnóstico da área específica (prompt 05). Curso aberto viria depois, feito dos casos |
+
+### O que isso implica na prática
+
+- A marca da linha é **GESTOR DE AGENTES**; "Software sob Demanda com IA" vira o subtítulo explicativo.
+- O primeiro entregável é `desafio-30-dias/`, não um curso.
+- Nenhuma aula pode depender de ter Astra. Todo projeto precisa de caminho em pelo menos duas ferramentas.
+- C4/C9 viram uma oferta comercial, com o prompt 05 como porta de entrada do diagnóstico.
 
 ---
 
